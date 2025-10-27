@@ -5,8 +5,8 @@ let postfixIncrement= counter++;
 let prefixDecrement= --counter;
 let postfixDecrement= counter--;
 
+document.getElementById("result").innerHTML= counter;
 
-document.getElementById("after-postfix-Decrement").innerHTML= counter;
 
 
 
